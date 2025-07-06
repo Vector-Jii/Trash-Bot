@@ -36,6 +36,7 @@ To control the robot remotely:
 ```bash
 ├── /src
 │   └── trash_collection.ino
+│   └── pin_comfig.txt
 ├── /docs
 │   └── schematic.png
 ├── README.md
