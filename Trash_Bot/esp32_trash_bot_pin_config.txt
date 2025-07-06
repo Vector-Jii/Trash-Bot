@@ -1,0 +1,25 @@
+
+ESP32 Trash Bot - Pin Configuration
+
+WiFi:
+- ESP32 acts as SoftAP: SSID = Motor_Control, Password = 12345678
+
+PCA9685 Connections (I2C):
+- SDA -> ESP32 GPIO 21 (default for Wire)
+- SCL -> ESP32 GPIO 22 (default for Wire)
+- VCC, GND connected to 3.3V and GND
+
+Servo Channels on PCA9685:
+- CH0: Claw Left Servo
+- CH1: Claw Right Servo
+- CH2: Arm 1 Servo
+- CH3: Arm 2 Servo
+- CH4: Trash Bin Servo
+
+Motor Driver Inputs:
+- IN1 -> GPIO 13 (Motor 1 direction)
+- IN2 -> GPIO 12 (Motor 2 direction)
+- IN3 -> GPIO 14 (Motor 3 direction)
+- IN4 -> GPIO 27 (Motor 4 direction)
+- ENA -> GPIO 32 (PWM for Motor A)
+- ENB -> GPIO 33 (PWM for Motor B)
